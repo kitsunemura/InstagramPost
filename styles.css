@@ -8,6 +8,7 @@ div {
 div.photo-container {
     background: whitesmoke;
     margin-top: 20px;
+    font-family: 'Roboto'
 }
 div.photo-container .htmlLogo {
     float: left;
@@ -20,11 +21,11 @@ div.photo-container .threeBars {
 }
 div.photo-container .postHeader div:first-child {
     display: inline-block;
-    width: 20%;
+    width: 80%;
 }
 div.photo-container .postHeader div:last-child {
     display: inline-block;
-    width: 30%;
+    width: 20%;
     padding-right: 10px;
     text-align: right;
 }
@@ -33,8 +34,12 @@ div.photo-container h2, div.photo-container p, div.likes, div.icons {
     margin: 0;
     width: 480px;
 }    
-div.photo-container div.icons {
+div.photo-container div.icons, div.saveIcon {
     font-size: 25px;
+}
+div.photo-container div.saveIcon {
+    float: right;
+    padding: 10px;
 }
 div.photo-container h3 {
     padding: 20px;
@@ -44,8 +49,4 @@ div.photo-container h3 {
 div.container {
     width: 500px;
     margin: auto;
-}
-footer {
-    text-align: center;
-    color: white;
 }
