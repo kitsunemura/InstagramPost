@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+div {
+    box-sizing: border-box;
+}
+div.photo-container {
+    background: whitesmoke;
+    margin-top: 20px;
+}
+div.photo-container .htmlLogo {
+    float: left;
+    font-size: 35px;
+    padding: 10px;
+}
+div.photo-container .threeBars {
+    float: right;
+    font-size: 25px;
+}
+div.photo-container .postHeader div:first-child {
+    display: inline-block;
+    width: 20%;
+}
+div.photo-container .postHeader div:last-child {
+    display: inline-block;
+    width: 30%;
+    padding-right: 10px;
+    text-align: right;
+}
+div.photo-container h2, div.photo-container p, div.likes, div.icons {
+    padding: 10px;
+    margin: 0;
+    width: 480px;
+}    
+div.photo-container div.icons {
+    font-size: 25px;
+}
+div.photo-container h3 {
+    padding: 20px;
+    margin: 0;
+    border-top: 0;
+}
+div.container {
+    width: 500px;
+    margin: auto;
+}
+footer {
+    text-align: center;
+    color: white;
+}
