@@ -39,6 +39,7 @@ div.photo-container div.icons, div.saveIcon {
 }
 div.photo-container div.saveIcon {
     float: right;
+    display: flex;
     padding: 10px;
 }
 div.photo-container h3 {
