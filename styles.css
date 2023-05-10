@@ -5,49 +5,54 @@ body {
 div {
     box-sizing: border-box;
 }
+
 div.photo-container {
     background: whitesmoke;
     margin-top: 20px;
     font-family: 'Roboto'
 }
+
 div.photo-container .htmlLogo {
     float: left;
     font-size: 35px;
     padding: 10px;
 }
-div.photo-container .threeBars {
+
+.fa-bookmark{
     float: right;
-    font-size: 25px;
-}
-div.photo-container .postHeader div:first-child {
-    display: inline-block;
-    width: 80%;
-}
-div.photo-container .postHeader div:last-child {
-    display: inline-block;
-    width: 20%;
-    padding-right: 10px;
-    text-align: right;
-}
-div.photo-container h2, div.photo-container p, div.likes, div.icons {
-    padding: 10px;
-    margin: 0;
-    width: 480px;
-}    
-div.photo-container div.icons, div.saveIcon {
-    font-size: 25px;
-}
-div.photo-container div.saveIcon {
-    float: right;
-    display: flex;
-    padding: 10px;
 }
 div.photo-container h3 {
     padding: 20px;
     margin: 0;
     border-top: 0;
 }
+
 div.container {
     width: 500px;
     margin: auto;
+}
+div.textPost {
+    padding: 10px;
+}
+.header-nombre {
+    float: left;
+}
+
+.Rigo {
+    margin-top: -10px;
+}
+
+.header-puntitos {
+    padding: 15px;
+    float: right;
+    font-size: 25px;
+}
+
+.likes {
+   padding: 10px;
+}
+
+.icons {
+    padding: 10px;
+    font-size: 25px;
 }
